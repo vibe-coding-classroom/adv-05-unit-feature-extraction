@@ -13,11 +13,11 @@ function processEdges(src, threshold1, threshold2) {
 
     // 2. [Task 1] Noise reduction (Crucial for Canny)
     // TODO: Implement GaussianBlur to remove high-frequency noise
-    // cv.GaussianBlur(gray, blurred, new cv.Size(5, 5), 0);
+    cv.GaussianBlur(gray, blurred, new cv.Size(5, 5), 0);
 
     // 3. [Task 1] Canny Edge Detection
     // TODO: Implement cv.Canny with dynamic thresholds
-    // cv.Canny(blurred, dst, threshold1, threshold2, 3, false);
+    cv.Canny(blurred, dst, threshold1, threshold2, 3, false);
 
     gray.delete();
     blurred.delete();

@@ -14,7 +14,7 @@ function handlePerception(features, bleClient) {
         if (stopFrameCount >= DETECTION_THRESHOLD) {
             console.log("Parking line confirmed. Sending STOP command.");
             // [Task 3] BLE Trigger
-            // bleClient.send({ command: 'STOP', duration: 3000 });
+            bleClient.send({ command: 'STOP', duration: 3000 });
         }
     } else {
         stopFrameCount = 0;

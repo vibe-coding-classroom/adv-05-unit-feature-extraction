@@ -9,11 +9,10 @@
  */
 function calculateRoundness(contour) {
     // TODO: Implement roundness calculation
-    // let area = cv.contourArea(contour);
-    // let perimeter = cv.arcLength(contour, true);
-    // if (perimeter === 0) return 0;
-    // return (4 * Math.PI * area) / (perimeter * perimeter);
-    return 0; 
+    let area = cv.contourArea(contour);
+    let perimeter = cv.arcLength(contour, true);
+    if (perimeter === 0) return 0;
+    return (4 * Math.PI * area) / (perimeter * perimeter);
 }
 
 /**
