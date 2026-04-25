@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Denoising Implementation Check",
+      "setup": "npm install",
+      "run": "node tests/feature_check.js --check-denoise",
+      "input": "",
+      "output": "PASSED: Denoising implementation found",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 30
+    },
+    {
+      "name": "Roundness Formula Accuracy",
+      "setup": "npm install",
+      "run": "node tests/feature_check.js --check-roundness",
+      "input": "",
+      "output": "PASSED: Roundness formula is correct",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 40
+    },
+    {
+      "name": "Behavior Stability Check",
+      "setup": "npm install",
+      "run": "node tests/feature_check.js --check-stability",
+      "input": "",
+      "output": "PASSED: Stability logic confirmed",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 30
+    }
+  ]
+}

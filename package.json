@@ -1,0 +1,15 @@
+{
+  "name": "adv-05-unit-feature-extraction",
+  "version": "1.0.0",
+  "description": "Feature extraction unit for vision-based robotics.",
+  "main": "src/edge_processor.js",
+  "scripts": {
+    "test": "node tests/feature_check.js"
+  },
+  "dependencies": {
+    "fs": "latest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
