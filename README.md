@@ -1,5 +1,3 @@
-Viewed adv-05-unit-feature-extraction.html:1-460
-
 針對 **`adv-05-unit-feature-extraction` (數位影像的特徵提取)** 單元，這是一個讓機器「從看見像素到理解語義」的轉折單元，重點在於數學描述符 (Descriptor) 與幾何邏輯的整合。
 
 以下是在 **GitHub Classroom** 部署其作業 (Assignments) 的具體建議：
