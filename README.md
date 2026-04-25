@@ -71,9 +71,8 @@
 
 ### 🛠️ 本地測試 (Local Testing)
 在提交作業前，你可以透過以下命令在本地驗證你的邏輯：
-1. **安裝環境**：`npm install`
-2. **執行所有測試**：`npm test`
-3. **針對特定任務測試**：
+1. **執行所有測試**：`npm test`
+2. **針對特定任務測試**：
    - 降噪驗證：`node tests/feature_check.js --check-denoise`
    - 圓度公式驗證：`node tests/feature_check.js --check-roundness`
    - 穩定性邏輯驗證：`node tests/feature_check.js --check-stability`
